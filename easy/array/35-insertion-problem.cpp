@@ -27,3 +27,41 @@ nums contains distinct values sorted in ascending order.
 -104 <= target <= 104
 
 */
+
+#include <iostream>
+#include <vector>
+class Solution
+{
+public:
+  int searchInsert(vector<int> &nums, int target)
+  {
+    int length = nums.size();
+
+    if (length == 1 && nums[0] < target)
+    {
+      return 1;
+    }
+    else if (length == 1 && nums[0] > target)
+    {
+      return 0;
+    }
+    else
+    {
+      return find(0, length - 1, target, nums);
+    }
+  }
+
+  int find(int start, int end, int target, vector<int> &nums)
+  {
+    int mid = (start + end) / 2;
+
+    if (nums[mid] == target)
+      return mid;
+    else if (start == end)
+      return start;
+    else if (nums[mid] > target)
+      return find(start, mid - 1, target, nums);
+    else
+      return find(mid + 1, end, target, nums);
+  }
+};

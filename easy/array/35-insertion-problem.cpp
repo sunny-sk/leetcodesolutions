@@ -30,38 +30,32 @@ nums contains distinct values sorted in ascending order.
 
 #include <iostream>
 #include <vector>
-class Solution
+
+using namespace std;
+
+int find(vector<int>&arr, int i, int j, int target){
+    while(i<=j){
+        if(i==j){
+            if(arr[i] == target) return i;
+            else if(arr[i] < target) return i+1;
+            else i;
+        }
+        int mid = (i+j)/2;
+        
+        if(arr[mid] == target) return mid;
+        else if(arr[mid] < target) i = mid +1;
+        else j = mid -1;
+    }
+    return i;
+}
+
+int main()
 {
-public:
-  int searchInsert(vector<int> &nums, int target)
-  {
-    int length = nums.size();
-
-    if (length == 1 && nums[0] < target)
-    {
-      return 1;
-    }
-    else if (length == 1 && nums[0] > target)
-    {
-      return 0;
-    }
-    else
-    {
-      return find(0, length - 1, target, nums);
-    }
-  }
-
-  int find(int start, int end, int target, vector<int> &nums)
-  {
-    int mid = (start + end) / 2;
-
-    if (nums[mid] == target)
-      return mid;
-    else if (start == end)
-      return start;
-    else if (nums[mid] > target)
-      return find(start, mid - 1, target, nums);
-    else
-      return find(mid + 1, end, target, nums);
-  }
-};
+    std::vector<int> arr = {1,3,5,6};
+    int target = 2;
+    int i =  0;
+    int size = arr.size();
+    int j = size - 1;
+    cout << find(arr, i, j , target) << endl;
+    return 0;
+}

@@ -38,7 +38,7 @@ int find(vector<int>&arr, int i, int j, int target){
         if(i==j){
             if(arr[i] == target) return i;
             else if(arr[i] < target) return i+1;
-            else i;
+            else return i;
         }
         int mid = (i+j)/2;
         

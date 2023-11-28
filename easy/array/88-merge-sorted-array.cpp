@@ -46,31 +46,26 @@ public:
   void merge(vector<int> &nums1, int m, vector<int> &nums2, int n)
   {
     std::vector<int> nums3 = {};
+    nums3.reserve(m + n);  // reserving only required amount of space for future
     int i = 0, j = 0;
     while (i < m && j < n)
     {
       if (nums1[i] <= nums2[j])
       {
-        nums3.push_back(nums1[i++]);
+        nums3.emplace_back(nums1[i++]);
       }
       else
       {
-        nums3.push_back(nums2[j++]);
+        nums3.emplace_back(nums2[j++]);
       }
     }
-    if (i <= m - 1)
+    for (; i < m; i++)
     {
-      for (; i < m; i++)
-      {
-        nums3.push_back(nums1[i]);
-      }
+      nums3.emplace_back(nums1[i]);
     }
-    if (j <= n - 1)
+    for (; j < n; j++)
     {
-      for (; j < n; j++)
-      {
-        nums3.push_back(nums2[j]);
-      }
+      nums3.emplace_back(nums2[j]);
     }
     for (int k = 0; k < m + n; k++)
     {

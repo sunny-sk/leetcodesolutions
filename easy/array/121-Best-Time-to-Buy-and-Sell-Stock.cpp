@@ -24,3 +24,19 @@ Constraints:
 0 <= prices[i] <= 104
 
 */
+
+
+
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int maxProfit = 0;  
+        int buyPrice = INT_MAX;
+            
+        for (int price : prices) {
+            buyPrice = min(price, buyPrice);   // finding the minimum buy price
+            maxProfit =  max(price - buyPrice, maxProfit);    // current price can be treated a selling price also
+        }
+        return maxProfit;
+    }
+};

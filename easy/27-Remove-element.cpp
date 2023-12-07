@@ -46,43 +46,22 @@ Constraints:
 0 <= val <= 100
 */
 
-#include <iostream>
-#include <vector>
-
-class Solution
-{
+class Solution {
 public:
-  int removeElement(vector<int> &arr, int val)
-  {
-    int length = arr.size();
-    int i = 0;
-    int j = length - 1;
-    if (length == 1 && arr[0] == val)
-    {
-      return 0;
-    }
+    int removeElement(vector<int>& arr, int val) {
+        int length = arr.size();
+        int i = 0;
+        int pos = 0;
+        if(length == 1 && arr[0] == val){
+             return 0; 
+        }
 
-    while (i <= j)
-    {
-      if (arr[i] == val)
-      {
-        if (arr[j] == val)
-        {
-          j--;
+        for(i=0;i<length;i++){
+            if(arr[i] != val){
+                arr[pos] = arr[i];
+                pos++;
+            }
         }
-        else
-        {
-          arr[i] = arr[j];
-          arr[j] = val;
-          j--;
-          i++;
-        }
-      }
-      else
-      {
-        i++;
-      }
+        return pos;
     }
-    return i;
-  }
 };

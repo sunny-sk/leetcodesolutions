@@ -54,10 +54,8 @@ public:
   {
     int j = 0;
     int length = nums.size();
-    if (length == 1)
-      return 1;
-    if (length == 2)
-      return nums[0] == nums[1] ? 1 : 2;
+    if (length == 1) return 1;
+    if (length == 2) return nums[0] == nums[1] ? 1 : 2;
 
     for (int i = 1; i < nums.size(); i++)
     {

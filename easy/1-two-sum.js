@@ -41,14 +41,16 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
  */
 var twoSum = function (nums, target) {
   let result = [];
+  let found = false;
   for (let i = 0; i < nums.length; i++) {
-    let found = false;
     for (let j = i + 1; j < nums.length; j++) {
       if (nums[i] + nums[j] === target && i !== j) {
         found = true;
         result = [i, j];
+        break;
       }
     }
+    if (found) break;
   }
   return result;
 };

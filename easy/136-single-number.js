@@ -34,6 +34,7 @@ var singleNumber = function (nums) {
   Object.keys(counts).forEach((e) => {
     if (counts[e] == 1) {
       result = e;
+      return;
     }
   });
   return result;

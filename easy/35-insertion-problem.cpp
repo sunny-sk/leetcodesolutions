@@ -36,8 +36,7 @@ using namespace std;
 int find(vector<int>&arr, int i, int j, int target){
     while(i<=j){
         if(i==j){
-            if(arr[i] == target) return i;
-            else if(arr[i] < target) return i+1;
+            if(arr[i] < target) return i+1;
             else return i;
         }
         int mid = (i+j)/2;

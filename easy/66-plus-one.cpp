@@ -35,41 +35,32 @@ Constraints:
 digits does not contain any leading 0's.
 */
 
-class Solution
-{
+class Solution {
 public:
-  vector<int> plusOne(vector<int> &arr)
-  {
-
-    int temp[100] = {1};
-    int flag = true;
-    int i = arr.size() - 1;
-    int j = 0;
-    int oldRem = 0;
-    while (flag && i >= 0)
-    {
-      int k = j == 0 ? temp[0] : 0;
-      int p = arr[i] + k + oldRem;
-      if (p < 10)
-      {
-        arr[i] = p;
-        flag = false;
-        oldRem = 0;
-      }
-      else
-      {
-        int rem = p % 10;
-        arr[i] = rem;
-        oldRem = p / 10;
-        i--;
-        j++;
-      }
+    vector<int> plusOne(vector<int>& arr) {
+      
+        int increamentBy = 1;
+        int flag = true;
+        int i = arr.size()-1;
+        int carry = 0;
+        while(flag && i >= 0){
+            int sum = arr[i] + increamentBy + oldRem;
+            if(sum<10){
+                arr[i] = sum;
+                flag = false;
+                carry = 0;
+            }else{
+                arr[i] = sum % 10;
+                carry = sum / 10;
+                i--;
+            }
+            increamentBy = 0;
+        }
+        
+        if(oldRem > 0){
+            arr.insert(arr.begin(),carry);
+        }
+           return arr;
+        
     }
-
-    if (oldRem > 0)
-    {
-      arr.insert(arr.begin(), oldRem);
-    }
-    return arr;
-  }
 };

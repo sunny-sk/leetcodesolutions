@@ -19,3 +19,5 @@ Basic hits for all leetcode problems to solve it
 | 228. | Summay ranges | Easy | sliding window problem |
 | 242. | Valid anagram | Easy | using map/(key, value) |
 | 2618. | Check if Object Instance of Class | Medium |  |
+| 2623. | Memoize | Medium | closures  |
+| 2624. | Snail Traversal | Medium | loop all over element  |

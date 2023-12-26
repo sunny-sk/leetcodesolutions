@@ -84,6 +84,8 @@ fn returns a promise
  * @param {number} t
  * @return {Function}
  */
+
+// # solution 1
 var timeLimit = function (fn, t) {
   return async function (...args) {
     return new Promise((resolve, reject) => {
@@ -99,6 +101,19 @@ var timeLimit = function (fn, t) {
           reject(res);
         });
     });
+  };
+};
+
+// solution 2
+var timeLimit = function (fn, t) {
+  return async function (...args) {
+    let p1 = new Promise((resolve, reject) => {
+      setTimeout(() => {
+        reject("Time Limit Exceeded");
+      }, t);
+    });
+    let p2 = fn(...args);
+    return Promise.race([p1, p2]);
   };
 };
 

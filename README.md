@@ -21,4 +21,5 @@ Basic hits for all leetcode problems to solve it
 | 2618. | Check if Object Instance of Class | Medium |  |
 | 2623. | Memoize | Medium | closures  |
 | 2624. | Snail Traversal | Medium | loop all over element  |
+| 2625. | Flatten Deeply Nested Array | Medium | recursion  |
 | 2637. | Promise Time Limit | Medium |   |

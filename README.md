@@ -6,6 +6,7 @@ Basic hits for all leetcode problems to solve it
 
 | S.no. | Problems | Type | Hint |
 | --- | --- | --- | --- |
+| 9. | Palindrome  | Easy |  |
 | 26. | Remove duplicate form sorted array  | Easy | maintain a position to replace element. check current element is different from previous, increament position & swap current with the position element |
 | 27. | Remove all occurence of element  | Easy | maintain a pos. to replace element. check current element is different from target element, swap current with the position element |
 | 35. | Insertion problem  | Easy | use devide and conquer, return index if element found, if element is not found check if it's greater or smaller |

@@ -9,6 +9,7 @@ Basic hits for all leetcode problems to solve it
 | 9. | Palindrome  | Easy |  |
 | 26. | Remove duplicate form sorted array  | Easy | maintain a position to replace element. check current element is different from previous, increament position & swap current with the position element |
 | 27. | Remove all occurence of element  | Easy | maintain a pos. to replace element. check current element is different from target element, swap current with the position element |
+| 28. | Find the Index of the First Occurrence in a String | Easy | Sliding window problem, O(n*m) |
 | 35. | Insertion problem  | Easy | use devide and conquer, return index if element found, if element is not found check if it's greater or smaller |
 | 58. | Length of Last Word  | Easy | start tracing from end |
 | 66. | Plus one  | Easy | start loop from last, add one & save carry & add it with the other elements if required, you may need bigger array if carry remains at the first element of array |  

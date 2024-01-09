@@ -21,6 +21,7 @@ Basic hits for all leetcode problems to solve it
 | 217. | Duplicate  | Easy | use set(which holds unique element & does not allow to enter same element). if element exist |
 | 228. | Summay ranges | Easy | sliding window problem |
 | 242. | Valid anagram | Easy | using map/(key, value) |
+| 334. | Reverse string | Easy | two pointer |
 | 2610. | Convert an Array Into a 2D Array With Conditions | Medium |  |
 | 2618. | Check if Object Instance of Class | Medium |  |
 | 2623. | Memoize | Medium | closures  |

@@ -17,6 +17,7 @@ Basic hits for all leetcode problems to solve it
 | 118. | Pascal triagle | Easy | require two foor loop, for row  0 & 1 is simple, for other rows calculate form it's previous row |
 | 119. | Pascal triagle 2 | Easy | - |
 | 121. | Best time to buy and sell stock | Easy | trace all elements, find the mininum buy amount, find maximum profit |
+| 125. | Valid Palindrome | Easy | filter alphanumeric key, two pointer |
 | 136. | Single number | Easy | use hashmap |
 | 217. | Duplicate  | Easy | use set(which holds unique element & does not allow to enter same element). if element exist |
 | 228. | Summay ranges | Easy | sliding window problem |

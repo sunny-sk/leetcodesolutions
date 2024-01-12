@@ -8,6 +8,7 @@ Basic hits for all leetcode problems to solve it
 | --- | --- | --- | --- |
 | 9. | Palindrome  | Easy |  |
 | 13. | Roman to integer  | Easy | trace from end to start, subtract it previous is less then current  |
+| 14. | Longest Common Prefix  | Easy | Brute force approach  |
 | 26. | Remove duplicate form sorted array  | Easy | maintain a position to replace element. check current element is different from previous, increament position & swap current with the position element |
 | 27. | Remove all occurence of element  | Easy | maintain a pos. to replace element. check current element is different from target element, swap current with the position element |
 | 28. | Find the Index of the First Occurrence in a String | Easy | Sliding window problem, O(n*m) |

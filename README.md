@@ -15,6 +15,7 @@ Basic hits for all leetcode problems to solve it
 | 35. | Insertion problem  | Easy | use devide and conquer, return index if element found, if element is not found check if it's greater or smaller |
 | 58. | Length of Last Word  | Easy | start tracing from end |
 | 66. | Plus one  | Easy | start loop from last, add one & save carry & add it with the other elements if required, you may need bigger array if carry remains at the first element of array |  
+| 67. | Add binary  | Easy | start loop from last, make string equal & save carry & add it with the other elements if required |  
 | 88. | Merge two sorted array  | Easy | compare I index of both the array & put element into another array & inreament the index of smaller element array |
 | 118. | Pascal triagle | Easy | require two foor loop, for row  0 & 1 is simple, for other rows calculate form it's previous row |
 | 119. | Pascal triagle 2 | Easy | - |

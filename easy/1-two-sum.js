@@ -39,6 +39,8 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
  * @param {number} target
  * @return {number[]}
  */
+
+// brute force approach - O(nxn)
 var twoSum = function (nums, target) {
   let result = [];
   let found = false;
@@ -51,6 +53,24 @@ var twoSum = function (nums, target) {
       }
     }
     if (found) break;
+  }
+  return result;
+};
+
+// using map - O(n)
+var twoSum = function (nums, target) {
+  let result = [];
+  const remIndexMap = {};
+  remIndexMap[nums[0]] = 0;
+
+  for (let i = 1; i < nums.length; i++) {
+    const secondElmnt = target - nums[i];
+    if (remIndexMap[secondElmnt] != undefined) {
+      result = [remIndexMap[secondElmnt], i];
+      break;
+    } else {
+      remIndexMap[input[i]] = i;
+    }
   }
   return result;
 };

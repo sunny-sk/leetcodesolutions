@@ -32,7 +32,7 @@ public:
         string commonPrefix = "";
         string firstWord = strs[0];
         
-         for(string &word : strs){
+        for(string &word : strs){  // not creating copy of string but using the reference of input string
             smWordLen = smWordLen < word.length() ? smWordLen : word.length() ;
         }
 

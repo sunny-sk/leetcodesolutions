@@ -44,7 +44,7 @@ public:
         int i = arr.size()-1;
         int carry = 0;
         while(flag && i >= 0){
-            int sum = arr[i] + increamentBy + oldRem;
+            int sum = arr[i] + increamentBy + carry;
             if(sum<10){
                 arr[i] = sum;
                 flag = false;
@@ -57,7 +57,7 @@ public:
             increamentBy = 0;
         }
         
-        if(oldRem > 0){
+        if(carry > 0){
             arr.insert(arr.begin(),carry);
         }
            return arr;

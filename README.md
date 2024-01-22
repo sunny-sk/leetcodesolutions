@@ -29,6 +29,7 @@ Basic hits for all leetcode problems to solve it
 | 242. | Valid anagram | Easy | using map/(key, value) |
 | 334. | Reverse string | Easy | two pointer |
 | 334. | Reverse vowel of string | Easy | two pointer |
+| 645. | Set mismatch | Easy | sum of n numbers or match with index |
 | 2610. | Convert an Array Into a 2D Array With Conditions | Medium |  |
 | 2618. | Check if Object Instance of Class | Medium |  |
 | 2623. | Memoize | Medium | closures  |

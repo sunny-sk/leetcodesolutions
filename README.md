@@ -6,6 +6,8 @@ Basic hits for all leetcode problems to solve it
 
 | S.no. | Problems | Type | Hint |
 | --- | --- | --- | --- |
+| 1. | Two sum  | Easy | Brute force or using hashmap |
+| 4. | Median of Two Sorted Arrays  | Hard | merge sorted array & then find median |
 | 9. | Palindrome  | Easy |  |
 | 13. | Roman to integer  | Easy | trace from end to start, subtract it previous is less then current  |
 | 14. | Longest Common Prefix  | Easy | Brute force approach  |

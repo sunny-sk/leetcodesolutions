@@ -19,6 +19,7 @@ Basic hits for all leetcode problems to solve it
 | 66. | Plus one  | Easy | start loop from last, add one & save carry & add it with the other elements if required, you may need bigger array if carry remains at the first element of array |  
 | 67. | Add binary  | Easy | start loop from last, make string equal & save carry & add it with the other elements if required |  
 | 79. | Climbing stairs  | Easy | find similaries like a fibonacci series |  
+| 80. | Remove Duplicates from Sorted Array II  | Medium | manage two pointer for uniqueness & checking for atmost two & position for replacement, start with index 2  |  
 | 88. | Merge two sorted array  | Easy | compare I index of both the array & put element into another array & inreament the index of smaller element array |
 | 118. | Pascal triagle | Easy | require two foor loop, for row  0 & 1 is simple, for other rows calculate form it's previous row |
 | 119. | Pascal triagle 2 | Easy | - |

@@ -43,3 +43,20 @@ Basic hits for all leetcode problems to solve it
 | 2631. | Group By | Medium |   |
 | 2637. | Promise Time Limit | Medium |   |
 | 2721. | Execute Asynchronous Functions in Parallel | Medium | use forloop then & catch |
+
+
+
+
+# GeeksforGeeks solutions
+
+Basic hits for all problems to solve it
+
+
+| S.no. | Topic | Problems | Type | Hint |
+| --- | --- | --- | --- | --- |
+| 1. | Linked list | Print all elements | - | trace all elements |
+| 2. | Linked list | Length of linked list | - | trace all elements & increament counter |
+| 3. | Linked list | Node a given index | - | index-1 jump |
+| 4. | Linked list | finding middle element in linked list | - | two pointer, increament by 2 node & other increament by 1 node |
+| 5. | Linked list | Nth node from end of linked list | - | two pointer, increament first pointer by N, then increament both |
+| 6. | Linked list | delete a node in single linked list | - | index-1 jump |

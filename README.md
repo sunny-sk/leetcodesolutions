@@ -60,3 +60,5 @@ Basic hits for all problems to solve it
 | 4. | Linked list | finding middle element in linked list | - | two pointer, increament by 2 node & other increament by 1 node |
 | 5. | Linked list | Nth node from end of linked list | - | two pointer, increament first pointer by N, then increament both |
 | 6. | Linked list | delete a node in single linked list | - | index-1 jump |
+| 7. | Linked list | Remove every k’th node | - | maintain a count & reset after removing nth node |
+| 8. | Linked list | Delete N nodes after M nodes of a linked list | - | nested loop |

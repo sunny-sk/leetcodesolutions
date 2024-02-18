@@ -62,3 +62,4 @@ Basic hits for all problems to solve it
 | 6. | Linked list | delete a node in single linked list | - | index-1 jump |
 | 7. | Linked list | Remove every k’th node | - | maintain a count & reset after removing nth node |
 | 8. | Linked list | Delete N nodes after M nodes of a linked list | - | nested loop |
+| 9. | Linked list | delete-without-head-pointer | - | instead of deleting the current node, copy the next node into current one & delete next to the current |

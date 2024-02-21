@@ -52,14 +52,16 @@ Basic hits for all leetcode problems to solve it
 Basic hits for all problems to solve it
 
 
-| S.no. | Topic | Problems | Type | Hint |
+| S.no. | Topic | Type | Problems | Hint |
 | --- | --- | --- | --- | --- |
-| 1. | Linked list | Print all elements | - | trace all elements |
-| 2. | Linked list | Length of linked list | - | trace all elements & increament counter |
-| 3. | Linked list | Node a given index | - | index-1 jump |
-| 4. | Linked list | finding middle element in linked list | - | two pointer, increament by 2 node & other increament by 1 node |
-| 5. | Linked list | Nth node from end of linked list | - | two pointer, increament first pointer by N, then increament both |
-| 6. | Linked list | delete a node in single linked list | - | index-1 jump |
-| 7. | Linked list | Remove every k’th node | - | maintain a count & reset after removing nth node |
-| 8. | Linked list | Delete N nodes after M nodes of a linked list | - | nested loop |
-| 9. | Linked list | delete-without-head-pointer | - | instead of deleting the current node, copy the next node into current one & delete next to the current |
+| 1. | Linked list | Basic | Print all elements |  trace all elements |
+| 2. | Linked list | Basic | Length of linked list |  trace all elements & increament counter |
+| 3. | Linked list | Basic | Node a given index |  index-1 jump |
+| 4. | Linked list | Easy | finding middle element in linked list |  two pointer, increament by 2 node & other increament by 1 node |
+| 5. | Linked list | Easy | Nth node from end of linked list |  two pointer, increament first pointer by N, then increament both |
+| 6. | Linked list | Easy | delete a node in single linked list |  index-1 jump |
+| 7. | Linked list | Easy | Remove every k’th node |  maintain a count & reset after removing nth node |
+| 8. | Linked list | Easy | Delete N nodes after M nodes of a linked list |  nested loop |
+| 9. | Linked list | Easy | delete-without-head-pointer |  instead of deleting the current node, copy the next node into current one & delete next to the current |
+| 11. | Linked list | Medium | Segregate even & odd Using only one traversal |  maintain two different list, one for even & another is for odd |
+| 13. | Linked list | Medium | Polynomial Addition |  think like merge sort |

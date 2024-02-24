@@ -65,3 +65,5 @@ Basic hits for all problems to solve it
 | 9. | Linked list | Easy | delete-without-head-pointer |  instead of deleting the current node, copy the next node into current one & delete next to the current |
 | 11. | Linked list | Medium | Segregate even & odd Using only one traversal |  maintain two different list, one for even & another is for odd |
 | 13. | Linked list | Medium | Polynomial Addition |  think like merge sort |
+| 14. | Linked list | Easy |  |   |
+| 15. | Linked list | Easy | Pairwise swap elements of a linked list | maintain two pointers & move them together |

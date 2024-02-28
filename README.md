@@ -67,4 +67,5 @@ Basic hits for all problems to solve it
 | 13. | Linked list | Medium | Polynomial Addition |  think like merge sort |
 | 14. | Linked list | Easy |  |   |
 | 15. | Linked list | Easy | Pairwise swap elements of a linked list | maintain two pointers & move them together |
-| 16. | Linked list | Easy | Reverse a linked list | maintain three pointers & modify the link of 2nd |
+| 16. | Linked list | Easy | Reverse a linked list | maintain three pointers |
+| 17. | Linked list | Medium | Reverse a Linked List in groups of given size | maintain three pointers for reverse linked & t more pointer for first, last of last k reversed  |

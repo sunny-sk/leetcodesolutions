@@ -70,3 +70,5 @@ Basic hits for all problems to solve it
 | 16. | Linked list | Easy | Reverse a linked list | maintain three pointers |
 | 17. | Linked list | Medium | Reverse a Linked List in groups of given size | maintain three pointers for reverse linked & t more pointer for first, last of last k reversed  |
 | 20. | Linked list | Medium | Intersection Point in Y Shaped Linked Lists | count both list length, move  pointer to different & check for common or try to detect cycle using floyd loop detection   |
+| 21. | Linked list | Easy | Remove duplicate element from sorted Linked List | compare it with the next element  |
+| 22. | Linked list | Easy | Remove duplicates from an unsorted linked list | use hashmap  |

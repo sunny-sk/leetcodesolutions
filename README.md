@@ -72,3 +72,5 @@ Basic hits for all problems to solve it
 | 20. | Linked list | Medium | Intersection Point in Y Shaped Linked Lists | count both list length, move  pointer to different & check for common or try to detect cycle using floyd loop detection   |
 | 21. | Linked list | Easy | Remove duplicate element from sorted Linked List | compare it with the next element  |
 | 22. | Linked list | Easy | Remove duplicates from an unsorted linked list | use hashmap  |
+| 24. | Linked list | Basic | Check If Circular Linked List | check if current node is equal to   |
+| 25. | Linked list | Easy | Remove duplicates from an unsorted linked list |floyd loop detection  |

@@ -75,3 +75,4 @@ Basic hits for all problems to solve it
 | 24. | Linked list | Basic | Check If Circular Linked List | check if current node is equal to   |
 | 25. | Linked list | Easy | Remove duplicates from an unsorted linked list |floyd loop detection  |
 | 26. | Linked list | Easy | Find the length of the loop |use floyd loop detection & trace the loop again using slow & fast pointer  |
+| 27. | Linked list | Medium | Remove loop in Linked List |use floyd loop detection & keep pointer to head & compare slow next to first next  |

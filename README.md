@@ -77,3 +77,4 @@ Basic hits for all problems to solve it
 | 26. | Linked list | Easy | Find the length of the loop |use floyd loop detection & trace the loop again using slow & fast pointer  |
 | 27. | Linked list | Medium | Remove loop in Linked List |use floyd loop detection & keep pointer to head & compare slow next to first next  |
 | 28. | Linked list | Medium | Add two numbers represented by linked lists | reverse both the linked lists & add the sum (create new node each time & add to third node)  |
+| 30. | Linked list | Medium | Add 1 to a number represented as linked list | reverse & add (add new node if carry is there) & reverse - another approach is to look for non nine digit  |

@@ -79,3 +79,4 @@ Basic hits for all problems to solve it
 | 28. | Linked list | Medium | Add two numbers represented by linked lists | reverse both the linked lists & add the sum (create new node each time & add to third node)  |
 | 30. | Linked list | Medium | Add 1 to a number represented as linked list | reverse & add (add new node if carry is there) & reverse - another approach is to look for non nine digit  |
 | 31. | Linked list | Easy | Multiply two linked list | simply trace & fins sum of all elements  |
+| 32. | Linked list | Medium | Merge two sorted linked lists | -  |

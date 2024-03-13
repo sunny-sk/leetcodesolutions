@@ -65,7 +65,7 @@ Basic hits for all problems to solve it
 | 9. | Linked list | Easy | delete-without-head-pointer |  instead of deleting the current node, copy the next node into current one & delete next to the current |
 | 11. | Linked list | Medium | Segregate even & odd Using only one traversal |  maintain two different list, one for even & another is for odd |
 | 13. | Linked list | Medium | Polynomial Addition |  think like merge sort |
-| 14. | Linked list | Easy |  |   |
+| 14. | Linked list | Easy | Insert in a Sorted List |   |
 | 15. | Linked list | Easy | Pairwise swap elements of a linked list | maintain two pointers & move them together |
 | 16. | Linked list | Easy | Reverse a linked list | maintain three pointers |
 | 17. | Linked list | Medium | Reverse a Linked List in groups of given size | maintain three pointers for reverse linked & t more pointer for first, last of last k reversed  |
@@ -73,10 +73,11 @@ Basic hits for all problems to solve it
 | 21. | Linked list | Easy | Remove duplicate element from sorted Linked List | compare it with the next element  |
 | 22. | Linked list | Easy | Remove duplicates from an unsorted linked list | use hashmap  |
 | 24. | Linked list | Basic | Check If Circular Linked List | check if current node is equal to   |
-| 25. | Linked list | Easy | Remove duplicates from an unsorted linked list |floyd loop detection  |
+| 25. | Linked list | Easy | Detect Loop in linked list | floyed loop detection   |
 | 26. | Linked list | Easy | Find the length of the loop |use floyd loop detection & trace the loop again using slow & fast pointer  |
 | 27. | Linked list | Medium | Remove loop in Linked List |use floyd loop detection & keep pointer to head & compare slow next to first next  |
 | 28. | Linked list | Medium | Add two numbers represented by linked lists | reverse both the linked lists & add the sum (create new node each time & add to third node)  |
 | 30. | Linked list | Medium | Add 1 to a number represented as linked list | reverse & add (add new node if carry is there) & reverse - another approach is to look for non nine digit  |
-| 31. | Linked list | Easy | Multiply two linked list | simply trace & fins sum of all elements  |
-| 32. | Linked list | Medium | Merge two sorted linked lists | -  |
+| 32. | Linked list | Easy | Multiply two linked list | simply trace & fins sum of all elements  |
+| 33. | Linked list | Medium | Merge two sorted linked lists | -  |
+| 35. | Linked list | Easy | Intersection of Two Linked Lists | Use hash map  |

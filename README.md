@@ -63,6 +63,7 @@ Basic hits for all problems to solve it
 | 7. | Linked list | Easy | Remove every k’th node |  maintain a count & reset after removing nth node |
 | 8. | Linked list | Easy | Delete N nodes after M nodes of a linked list |  nested loop |
 | 9. | Linked list | Easy | delete-without-head-pointer |  instead of deleting the current node, copy the next node into current one & delete next to the current |
+| 9. | Linked list | Medium | Rearrange a linked list | take two pointer, try to separate even linkedlist, odd linkedlist |
 | 11. | Linked list | Medium | Segregate even & odd Using only one traversal |  maintain two different list, one for even & another is for odd |
 | 13. | Linked list | Medium | Polynomial Addition |  think like merge sort |
 | 14. | Linked list | Easy | Insert in a Sorted List |   |

@@ -86,3 +86,4 @@ Basic hits for all problems to solve it
 | 1. | Doubly and Circular Linked Lists | Basic | Insert a node in Doubly linked list |   |
 | 2. | Doubly and Circular Linked Lists | Basic | Delete node in Doubly Linked List |   |
 | 3. | Doubly and Circular Linked Lists | Basic | Circular Linked List Traversal |   |
+| 4. | Doubly and Circular Linked Lists | Easy | Split a Circular Linked List into two halves | count element, move it to half & split it |

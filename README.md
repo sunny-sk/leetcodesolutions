@@ -83,6 +83,9 @@ Basic hits for all problems to solve it
 | 33. | Linked list | Medium | Merge two sorted linked lists | -  |
 | 35. | Linked list | Easy | Intersection of Two Linked Lists | Use hash map  |
 
+
+| S.no. | Topic | Type | Problems | Hint |
+| --- | --- | --- | --- | --- |
 | 1. | Doubly and Circular Linked Lists | Basic | Insert a node in Doubly linked list |   |
 | 2. | Doubly and Circular Linked Lists | Basic | Delete node in Doubly Linked List |   |
 | 3. | Doubly and Circular Linked Lists | Basic | Circular Linked List Traversal |   |

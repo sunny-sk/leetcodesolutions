@@ -103,16 +103,20 @@ void insert(struct Node *p, int pos, int n)
   }
 }
 
-void deleteNode(int pos){
+void deleteNode(int pos)
+{
   struct Node *q;
   struct Node *p;
   int x, i;
-  if(pos < 1 || pos > count(head)){
+  if (pos < 1 || pos > count(head))
+  {
     printf("\nnot valid index \n");
   }
-  if(pos == 1){
+  if (pos == 1)
+  {
     p = q = head;
-    while(p->next != head){
+    while (p->next != head)
+    {
       p = p->next;
     }
     x = head->data;
@@ -127,9 +131,12 @@ void deleteNode(int pos){
       free(head);
       head = p->next;
     }
-  }else{
+  }
+  else
+  {
     p = head;
-    for (i = 0; i < pos - 1; i++){
+    for (i = 0; i < pos - 1; i++)
+    {
       q = p;
       p = p->next;
     }
@@ -140,8 +147,8 @@ void deleteNode(int pos){
   }
 }
 
-
-int main(){
+int main()
+{
 
   // mergin linked list
   int A[] = {10, 20, 30, 40, 50};
